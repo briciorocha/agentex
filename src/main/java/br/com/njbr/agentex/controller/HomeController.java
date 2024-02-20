@@ -11,7 +11,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String getMethodName() {
-        return new String("Home Selecionada");
+        return new String("Home Selecionada com maven 3.9.6");
     }
     
     
