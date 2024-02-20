@@ -1,7 +1,5 @@
 package br.com.njbr.agentex.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -11,7 +9,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String getMethodName() {
-        return new String("Home Selecionada com maven 3.9.6");
+        return new String("Home Selecionada com maven 4.0.0");
     }
     
     
